@@ -1,0 +1,81 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Griechischer Joghurt mit Honig",
+      "category": "Nachtisch",
+      "glutenFree": true,
+      "lactoseFree": false,
+      "groupFriendly": true,
+      "portions": 2,
+      "image": "images/griechischerJoghurt.png",
+      "prepTime": "5 Min",
+      "cookTime": "0 Min",
+      "ingredients": [
+        "Griechischer Joghurt",
+        "Honig"
+      ],
+      "instructions": "Den griechischen Joghurt je nach persönlichen Geschmack mit Honig toppen.",
+      "notes": [
+        "Der Fettgehalt des Joghurts sollte zwischen 2,5% und 5% liegen."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cinnamon Rolls",
+      "category": "Gebäck",
+      "glutenFree": false,
+      "lactoseFree": false,
+      "groupFriendly": true,
+      "portions": 12,
+      "image": "images/cinnamonRolls.png",
+      "prepTime": "60 Min",
+      "cookTime": "45 Min",
+      "ingredients": [
+        "540g Mehl (plus ca. 30g bei Bedarf)",
+        "255g Butter (gesalzen, weich)",
+        "240g brauner Zucker",
+        "180ml Milch",
+        "125g Frischkäse",
+        "120g Griechischer Joghurt",
+        "120ml Schlagsahne",
+        "110g Zucker",
+        "105g Puderzucker",
+        "2 Eier (raumtemperiert)",
+        "12g Zimt",
+        "10g Vanilleextrakt oder Vanillepaste",
+        "9g Trockenhefe",
+        "6g Salz"
+      ],
+      "instructions": "1. Hefe aktivieren:\nDie warme Milch (ca. 40–43 °C / handwarm) in eine kleine Schüssel geben. 13g des Zuckers und 9g Trockenhefe einrühren. 5–7 Minuten stehen lassen, bis die Mischung schäumt. (Bei Instant-Hefe entfällt die Wartezeit).\n\n2. Teig zubereiten:\nIn einer Schüssel 540g Mehl und 6g Salz vermengen. Die aktivierte Hefemischung in die Rührschüssel der Küchenmaschine geben. Den restlichen Zucker (97g), 120g griechischen Joghurt, 113g weiche Butter, 2 Eier, 4g Vanilleextrakt und die Mehlmischung hinzugeben.\nMit dem Knethaken auf niedriger Stufe 1 Minute mischen, dann 5 Minuten ruhen lassen, damit das Mehl die Flüssigkeit aufnehmen kann. Anschließend auf mittlerer Stufe 5–7 Minuten kneten, bis ein glatter, elastischer Teig entsteht (falls nötig, nach und nach bis zu 30g Mehl zugeben; der Teig darf leicht klebrig bleiben). Den Teig in eine leicht gefettete Schüssel legen, abdecken und an einem warmen Ort 30–45 Minuten gehen lassen (der Teig muss sich nicht verdoppeln).\n\n3. Zimtfüllung & Form vorbereiten:\n113g weiche Butter, 240g braunen Zucker, 12g Zimt und 4g Vanilleextrakt gründlich zu einer homogenen Masse verrühren. Eine Auflaufform (ca. 23x33 cm) mit Butter einfetten.\n\n4. Formen & Gehen lassen (12 kleine Zimtschnecken):\nDen Teig auf einer leicht bemehlten Arbeitsfläche zu einem Rechteck von ca. 60x38 cm ausrollen. Die Zimtfüllung gleichmäßig darauf verstreichen und einen kleinen Rand frei lassen.\nDer Länge nach mit einem Pizzaschneider oder Messer in 12 gleich breite Streifen (je ca. 5 cm breit und 38 cm lang) schneiden. Jeden Streifen von der kurzen Seite her eng aufrollen und das letzte Ende unter die Schnecke klemmen (alternativ den Teig von der langen Seite aufrollen und in 12 Schnecken schneiden).\nDie Zimtschnecken in die Backform setzen, abdecken und ca. 25–30 Minuten an einem warmen Ort gehen lassen, während der Ofen auf 175 °C Ober-/Unterhitze vorheizt.\n\n5. Backen:\n120ml Schlagsahne kurz erwärmen (ca. 15 Sekunden in der Mikrowelle) und gleichmäßig über die gegangenen Zimtschnecken gießen.\nIm vorgeheizten Ofen bei 175 °C für 20–22 Minuten backen. Danach die Ofentemperatur auf 190 °C erhöhen und weitere 5–7 Minuten backen, bis sie goldbraun und durchgebacken sind. Aus dem Ofen nehmen und 10–15 Minuten abkühlen lassen.\n\n6. Frischkäse-Frosting zubereiten & servieren:\n125g Frischkäse und 29g weiche Butter mit dem Handrührgerät cremig aufschlagen. Anschließend 105g Puderzucker und 2g Vanilleextrakt unterrühren, bis ein glattes Frosting entsteht.\nDas Frosting gleichmäßig auf den noch warmen Zimtschnecken verteilen und servieren.",
+      "notes": [
+        "Der Teig verdoppelt sich in den ersten 30–45 Minuten Gehzeit absichtlich nicht komplett, damit die Zimtschnecken schön kompakt und saftig statt zu luftig werden.",
+        "Das Übergießen mit warmer Schlagsahne vor dem Backen sorgt für extrem saftige, weiche Zimtschnecken.",
+        "Durch das Erhöhen der Backtemperatur von 175 °C auf 190 °C in den letzten Minuten backen die Schnecken perfekt durch, ohne oben zu dunkel oder trocken zu werden."
+      ]
+    },{
+      "id": 3,
+      "name": "Snickers Joghurt",
+      "category": "Nachtisch",
+      "glutenFree": true,
+      "lactoseFree": false,
+      "groupFriendly": false,
+      "portions": 2,
+      "image": "images/snickersJoghurt.png",
+      "prepTime": "10 Min",
+      "cookTime": "5 Min",
+      "ingredients": [
+        "60g Medjool-Datteln (ca. 4 Stück)",
+        "400g Skyr",
+        "40g Erdnussbutter",
+        "30g Ahornsirup",
+        "30g Erdnüsse",
+        "50g Zartbitterschokolade"
+      ],
+      "instructions": "1. 400g Skyr mit 40g Erdnussbutter und 30g Ahornsirup in einer Schüssel glattrühren, bis eine gleichmäßige Creme entsteht.\n\n2. Die Skyr-Creme gleichmäßig auf zwei Dessertgläser verteilen.\n\n3. Datteln & Erdnüsse toppen:\nDie Datteln entsteinen, der Länge nach aufklappen, mit den Fingern flachdrücken und als Schicht auf die Skyr-Creme in die Gläser legen. Anschließend Erdnüsse darauf verteilen.\n\n4. Zartbitterschokolade über dem Wasserbad oder in kurzen Intervallen in der Mikrowelle schmelzen. Die flüssige Schokolade über die Erdnüsse und Datteln gießen, sodass eine Schokoschicht entsteht.\nFür ca. 10–15 Minuten in den Kühlschrank stellen, bis die Schokolade fest und knackig ist.",
+      "notes": [
+        "Für eine noch knackigere Schokoglasur kann 1/2 TL Kokosöl mit der Schokolade geschmolzen werden."
+      ]
+    }
+  ]
+}

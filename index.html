@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍰 Omis Nachtische</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <h1>🍰 Omis Nachtische</h1>
+        <p class="header-subtitle">✨ Süße Rezepte & feine Köstlichkeiten ✨</p>
+        <div class="search-container">
+            <label for="searchInput"></label><input type="text" id="searchInput" placeholder="🔍 Nach Nachtisch oder Zutaten suchen...">
+        </div>
+    </div>
+</header>
+
+<nav class="filters">
+    <button class="filter-btn active" data-filter="all">🍰 Alle</button>
+    <button class="filter-btn" data-filter="glutenFree">🌾 Glutenfrei</button>
+    <button class="filter-btn" data-filter="lactoseFree">🥛 Laktosefrei</button>
+    <button class="filter-btn" data-filter="groupFriendly">👥 Für Viele</button>
+    <button class="filter-btn" data-filter="quick">⚡ Schnell (&le; 45 Min)</button>
+    <div class="category-filters">
+        <label for="categoryFilter"></label><select id="categoryFilter">
+            <option value="all">🧁 Alle Kategorien</option>
+        </select>
+        <label for="portionsFilter"></label><select id="portionsFilter">
+            <option value="all">🍰 Alle Portionen</option>
+        </select>
+    </div>
+</nav>
+
+<main>
+    <div id="recipeGrid" class="recipe-grid">
+        <!-- Rezepte werden hier dynamisch eingefügt -->
+    </div>
+
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Rezeptdetails werden hier eingefügt -->
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
