@@ -263,7 +263,7 @@ function openRecipeModal(recipeId) {
             
             ${recipe.notes && recipe.notes.length > 0 ? `
                 <div class="notes">
-                    <h3>🍯 Omas Geheimtipps:</h3>
+                    <h3>🍯 Hinweise:</h3>
                     <ul>
                         ${recipe.notes.map(note => `<li>${note}</li>`).join('')}
                     </ul>
